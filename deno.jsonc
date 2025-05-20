@@ -7,8 +7,8 @@
   "exports": "./src/index.ts",
   "imports": {
     "@/": "./src/",
-    "@carbonteq/refined-type-effect": "./dist/",
-    "zod": "npm:zod@3.25.7",
-    "effect": "npm:effect@3.15.2"
+    "@carbonteq/refined-type-effect/": "./dist/",
+    "zod": "npm:zod@^3.25.7",
+    "effect": "npm:effect@^3.15.2"
   }
 }
