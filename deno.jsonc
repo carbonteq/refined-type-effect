@@ -1,5 +1,5 @@
 {
-  "name": "@carbonteq/refined-type",
+  "name": "@carbonteq/refined-type-effect",
   "version": "0.1.1",
   "publish": {
     "include": ["src", "README.md", "LICENCE", "package.json", "deno.jsonc"]
@@ -8,7 +8,7 @@
   "imports": {
     "@/": "./src/",
     "@carbonteq/refined-type-effect": "./dist/",
-    "@carbonteq/fp": "npm:zod@3.25.7",
+    "zod": "npm:zod@3.25.7",
     "effect": "npm:effect@3.15.2"
   }
 }
