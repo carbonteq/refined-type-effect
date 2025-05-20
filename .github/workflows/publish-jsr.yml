@@ -19,4 +19,4 @@ jobs:
       - name: Remove package json
         run: rm package.json
       - name: Publish
-        run: npx jsr publish --allow-slow-types --no-check
+        run: npx jsr publish --allow-slow-types --no-check --allow-dirty
