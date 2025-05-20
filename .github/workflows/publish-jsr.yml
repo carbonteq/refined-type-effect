@@ -16,7 +16,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install deps
-        run: deno install
       - name: Publish
         run: npx jsr publish --allow-slow-types

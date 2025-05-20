@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      effect:
-        specifier: ^3.15.2
-        version: 3.15.2
     devDependencies:
       '@biomejs/biome':
         specifier: ^1.8.3
@@ -33,6 +29,9 @@ importers:
       changesets:
         specifier: ^1.0.2
         version: 1.0.2
+      effect:
+        specifier: ^3.15.2
+        version: 3.15.2
       jsr:
         specifier: ^0.13.4
         version: 0.13.4
