@@ -1,8 +1,8 @@
 import * as assert from "node:assert/strict";
 import { describe, it } from "node:test";
 import { createRefinedType } from "@/core.js";
-import * as z from "zod/v4";
 import { Effect } from "effect";
+import * as z from "zod/v4";
 
 describe("test creation and validation", () => {
   const PositiveNum = createRefinedType("PositiveNum", z.number().positive());

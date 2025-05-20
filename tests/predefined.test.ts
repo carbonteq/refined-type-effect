@@ -1,8 +1,8 @@
 import * as assert from "node:assert/strict";
 import { describe, it } from "node:test";
-import { Email, UUID, DateTime } from "@/predefined.js";
-import * as z from "zod/v4";
+import { DateTime, Email, UUID } from "@/predefined.js";
 import { Effect } from "effect";
+import * as z from "zod/v4";
 
 describe("email", () => {
   it("should pass on valid email", () => {

@@ -1,10 +1,10 @@
+import * as z from "zod/v4";
 import {
-  createRefinedType,
   RefinedValidationError,
+  createRefinedType,
   extend,
   unsafeCast,
 } from "./core.js";
-import * as z from "zod/v4";
 
 export class InvalidUUIDError extends RefinedValidationError {}
 
