@@ -1,6 +1,6 @@
 {
   "name": "@carbonteq/refined-type-effect",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Refined types built over Zod (and Effect)",
   "author": "Arslan <rslnkrmt2552@gmail.com>",
   "main": "dist/index.cjs",
@@ -30,7 +30,9 @@
       "import": "./dist/predefined.js"
     }
   },
-  "files": ["/dist"],
+  "files": [
+    "/dist"
+  ],
   "scope": "@carbonteq",
   "repository": {
     "type": "git",
