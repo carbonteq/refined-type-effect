@@ -1,10 +1,16 @@
 {
+  "$schema": "https://raw.githubusercontent.com/denoland/deno/refs/heads/main/cli/schemas/config-file.v1.json",
   "name": "@carbonteq/refined-type-effect",
   "version": "0.1.1",
   "publish": {
-    "include": ["src", "README.md", "LICENCE", "package.json", "deno.jsonc"]
+    "include": ["src", "README.md", "LICENCE", "deno.jsonc"]
   },
-  "exports": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./core": "./src/core.ts",
+    "./predefined": "./src/predefined.ts"
+  },
+  "nodeModulesDir": "auto",
   "imports": {
     "@/": "./src/",
     "@carbonteq/refined-type-effect/": "./dist/",
