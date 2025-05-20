@@ -10,7 +10,7 @@
 
 ## Overview
 
-This library builds on the foundation established by [@carbonteq/refined-type](https://github.com/carbonteq/refined-type), enhancing it with Effect's robust error handling capabilities. It offers a comprehensive solution for creating refined and branded types that maintain both compile-time and runtime type safety in TypeScript applications.
+This library builds on the foundation established by [@carbonteq/refined-type](https://github.com/carbonteq/refined-type), enhancing it with Effect's robust error handling capabilities.
 
 ## Usage Examples
 
