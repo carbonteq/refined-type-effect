@@ -23,6 +23,11 @@
       "types": "./dist/core.d.ts",
       "require": "./dist/core.cjs",
       "import": "./dist/core.js"
+    },
+    "./predefined": {
+      "types": "./dist/predefined.d.ts",
+      "require": "./dist/predefined.cjs",
+      "import": "./dist/predefined.js"
     }
   },
   "files": ["/dist"],
