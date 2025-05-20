@@ -9,11 +9,6 @@
   "license": "MIT",
   "type": "module",
   "exports": {
-    "node": {
-      "types": "./dist/index.d.ts",
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.js"
-    },
     ".": {
       "types": "./dist/index.d.ts",
       "require": "./dist/index.cjs",
@@ -30,13 +25,11 @@
       "import": "./dist/predefined.js"
     }
   },
-  "files": [
-    "/dist"
-  ],
+  "files": ["/dist"],
   "scope": "@carbonteq",
   "repository": {
     "type": "git",
-    "url": "https://github.com/carbonteq/refined-type-effect"
+    "url": "git+https://github.com/carbonteq/refined-type-effect.git"
   },
   "bugs": {
     "url": "https://github.com/carbonteq/refined-type-effect/issues"
