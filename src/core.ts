@@ -1,11 +1,13 @@
 import { Effect } from "effect";
 import * as z from "zod/v4";
 
-const extend = <T, U extends Record<string, unknown>>(
+export const extend = <T, U extends Record<string, unknown>>(
   original: T,
   extensions: U,
   // @ts-expect-error
 ): T & U => Object.assign(original, extensions);
+
+export const unsafeCast = <U, T = unknown>(val: T): U => val as unknown as U;
 
 type Extensions<
   Schema extends z.ZodType,
